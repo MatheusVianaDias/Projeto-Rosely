@@ -260,3 +260,52 @@ padding: 54px 14px;
     gap: 11px;
 
 }
+
+// ----------------------
+
+// Botao Whatsapp
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 14px;
+    right: 24px;    
+    z-index: 99;
+
+
+    img {
+        max-width: 72px;
+        transition: transform 0.4s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn-whatsapp .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    bottom: 10px;
+    left: -135px;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: $black-light;
+    color: $pink-light;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.btn-whatsapp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+.btn-whatsapp{
+    img {
+        max-width: 64px;
+    }
+}
+}
