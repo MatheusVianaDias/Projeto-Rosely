@@ -1,8 +1,10 @@
 header {
     width: 100%;
+    
 }
 
 .header-content {
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,18 +12,31 @@ header {
 }
 
 i{
-    color: $black-light;
+    color:  #771717;
+}
+.header-content {
+    background-color: #FF4341;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+i{
+    color:  #771717;
 }
 
 .header-icons {
+    color: #F4F4F4;
     display: flex;
     gap: 14px;
+    color: #771717;
 }
 
 .header-icons a:hover {
     i{
         animation: translateY 0.5s infinite alternate;
-        color: $red-light;
+        color: #771717;
     }
 }
 
@@ -36,10 +51,10 @@ i{
 
 
 .header-button {
-    border: 1px solid $black-light;
+    border: 1px solid rgb(240, 11, 11);
     padding: 8px 24px;
     border-radius: 4px;
-    color: $black-light;
+    color: #000000;
     background-color: transparent;
 }
 
@@ -76,6 +91,7 @@ i{
     }
 
     .header-button {
+        margin-bottom: 15px;
         display: flex;
     }
 }

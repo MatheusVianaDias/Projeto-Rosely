@@ -34,7 +34,7 @@
 .hero {
     color: $black-light;
     min-height: 80vh;
-
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +108,6 @@
 // ABOUT ----------
 
 .about {
-    background-color: $pink-light;
     overflow: hidden;
     color: $black-light;
 }

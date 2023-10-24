@@ -20,6 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="assets/logoverm.icon.jpg" type="image/x-icon">
 
@@ -29,55 +30,72 @@
 </head>
 
 <body>
+
     <!-- HEADER -->
 
     <div class="bg-home">
 
         <header>
-
+<style>
+    header {
+        background-color: #F4F4F4;
+    }
+</style>
             <nav class="header-content container">
+                <style>
+                    .header-content {
+                        background-color: #FF4341;
+                    }
+                </style>
                 <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
-                    <img data-aos="flip-up" data-aos-delay="400" data-aos-duration="1300" src="assets/logo-rosaJPG.jpg"
-                        alt="Logo da Rosaly">
+                    <img data-aos="flip-up" data-aos-delay="400" data-aos-duration="1300"
+                        src="assets/logobranca USAR01IMAGEMMENOR.png" alt="Logo da Rosaly">
                 </div>
                 <div class="header-icons" data-aos="fade-down">
 
 
                     <div class="menu" id="menu">
                         <style>
+                            .menu a {
+                                border-right: 1px solid black;
+                            }
+
                             .menu i {
-                                margin-left: 60px;
+                                color: #F4F4F4;
+                                display: row;
+                                margin: 35px;
                                 font-size: 20px;
-                                font-weight: 500;
-                                border: 1px solid #000000;
+                                font-weight: normal;
+                                font-family: ui-sans-serif;
                                 padding: 5px;
-                                border-radius: 4px
+                                font-style: oblique;
+
                             }
 
                             .menu i:hover {
-                                color: white;
-                                background-color: rgba(255, 0, 0, 0.123);
-                                padding: 5px;
-                                border-radius: 4px;
-                                box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.13);
+                                color: #ffffff;
+                                
                                 
                             }
+
+
                             @media screen and (max-width: 1108px) {
                                 .menu {
                                     display: flex;
                                 }
-                                    .header-button {
-                                        display: flex;
-                                    }
 
+                                .header-button {
+                                    display: flex;
                                 }
-                            
+
+                            }
+
+
                             @media screen and (max-width: 768px) {
                                 .menu {
                                     display: none;
                                 }
                             }
-                            
                         </style>
                         <a href="#Sobre" target="">
                             <i class="">Sobre</i>
@@ -101,8 +119,22 @@
 
 
                 <div data-aos="fade-down">
+                    <style>
+                        .header-button {
+                            color: #F4F4F4;
+                            border: 1px solid white;
+
+
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            .header-button {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    </style>
                     <a class="header-button" href="https://wa.me//5519992807297?text=Quero fazer um agendamento!"
-                        target="_blank">Agendar horário</a>
+                        target="_blank">Agendar</a>
 
 
                 </div>
@@ -110,6 +142,7 @@
             </nav>
 
             <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+                
                 <h1>Uma prática milenar que promove o equilíbrio energético para alcançar a beleza interna e externa!
                 </h1>
                 <p>Horário de funcionamento: 08:00 ás 19:00</p>
@@ -126,11 +159,22 @@
 
     <!--ABOUT-->
     <section class="about">
-
+        <style>
+            about {
+                background-color: #F4F4F4;
+            }
+        </style>
         <div class="container about-content">
             <div data-aos="zoom-in" data-aos-delay="100">
                 <img src="assets/RoselyAsa.jpg" alt="Imagem sobre a acupuntura">
                 <style>
+                    about {
+                background-color: #F4F4F4;
+            }
+                    .about-content {
+                        background-color: #F4F4F4;
+                    }
+
                     img {
                         border-radius: 8px 8px;
                     }
@@ -138,6 +182,11 @@
             </div>
 
             <div class="about-description" id="Sobre" data-aos="zoom-out-left" data-aos-delay="200">
+                <style>
+                    .about-description {
+                        background-color: #F4F4F4;
+                    }
+                </style>
                 <h2>Sobre</h2>
                 <p><strong>Rosely Asa</strong> é fisioterapeuta e especialista
                     em Clínica Geral e <strong>Acupuntura</strong>.
@@ -150,7 +199,7 @@
                     organismo, reestabelecendo o fluxo da
                     nossa energia vital.</p>
                 <p>Horário de funcionamento: <strong>08:00</strong>ás <strong>19:00</strong></p>
-                <p> <span class="	fas fa-phone"></span> (997602242 (Leme)</p>
+                <p> <span class="	fas fa-phone"></span> (19) 99760 2242 (Leme)</p>
                 <p><span class="	fas fa-phone"></span> (16) 99760 1249 (Ribeirão Preto)</p>
             </div>
         </div>
@@ -160,6 +209,11 @@
 
     <section class="services" id="Beneficios">
         <div class="services-content container">
+            <style>
+                .services {
+                    background-color: #F4F4F4;
+                }
+            </style>
             <h2>Benefícios</h2>
             <p>A acupuntura, uma prática terapêutica tradicional chinesa, tem
                 demonstrado ser eficaz no tratamento e <strong>alívio</strong> de uma ampla gama de
@@ -180,7 +234,18 @@
 
         <section class="haircuts">
             <div class="haircut" data-aos="zoom-in" data-aos-delay="100">
+                <style>
+                    .header-button {
+                        border: 1px solid rgb(0, 0, 0);
+                        padding: 8px 24px;
+                        border-radius: 4px;
+                        color: #000000;
+                        background-color: transparent;
+                    }
 
+                    
+                    
+                </style>
                 <img src="assets/3629_E-1.jpg" alt="">
                 <div class="haircut-info">
                     <strong>Estética
@@ -212,6 +277,12 @@
     <!-- FOOTER-->
 
     <div class="services" id="Serviços">
+        <style>
+            .services {
+                background-color: #F4F4F4;
+            
+            }
+        </style>
         <h2>Venha conhecer</h2>
         <p><span class="	fas fa-map-marker-alt"></span>Rua Hugo Anteghini, 77 - Jardin do Bosque, Leme - SP, 13613-060
         </p>
@@ -219,10 +290,7 @@
             SP,14025-090</p>
     </div>
 
-    <iframe width="100%" id="Mapa"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.571646984769!2d-47.40497372391558!3d-22.180371712315875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c80bae6e5cb2f5%3A0xf553fccf506891bf!2sDra%20Rosely%20Asa%20%7C%20Acupuntura%20e%20Fisioterapeuta!5e0!3m2!1sen!2sbr!4v1697574111935!5m2!1sen!2sbr"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe width="100%" id="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3694.5715163951213!2d-47.404973724711006!3d-22.180376679773047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c80bae6e5cb2f5%3A0xf553fccf506891bf!2sDra%20Rosely%20Asa%20%7C%20Acupuntura%20e%20Fisioterapeuta!5e0!3m2!1sen!2sbr!4v1698167263751!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     <footer class="footer">
         <div class="footer-icons">
@@ -235,18 +303,21 @@
             <a href="https://wa.me//5519992807297?text=Quero fazer um agendamento!" target="_blank">
                 <i class="fa-brands fa-whatsapp fa-2x"></i>
             </a>
+            
         </div>
 
 
 
         <div class="loguinho">
             <style>
-                .loguinho {
+                .loguinho p {
                     display: flex;
                     justify-content: center;
                 }
             </style>
-            <img class="loguinho" src="assets/logobranca.png" alt="">
+            <img class="loguinho" src="" alt="">
+            <p>Horário de funcionamento: 08:00ás 19:00</p>
+            <p>Contato: (19) 99760 2242 (Leme) | (16) 99760 1249 (Ribeirão Preto)</p>
         </div>
 
         <p>©Copyright 2023 | Dev MVD - Todos direitos reservados</p>
