@@ -20,6 +20,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="assets/logoverm.icon.jpg" type="image/x-icon">
 
@@ -30,83 +31,115 @@
 
 <body>
 
-        <!-- HEADER -->
+    <!-- HEADER -->
 
-        <div class="bg-home">
+    <div class="bg-home">
 
-            <header>
-    
-                <nav class="header-content container">
-                    <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
-                        <img data-aos="flip-up" data-aos-delay="400" data-aos-duration="1300" src="assets/logo-rosaJPG.jpg"
-                            alt="Logo da Rosaly">
-                    </div>
-                    <div class="header-icons" data-aos="fade-down">
-    
-    
-                        <div class="menu" id="menu">
-                            <style>
-                                .menu i {
-                                    margin-left: 700px;
-                                    font-size: 20px;
-                                    font-weight: 500;
-                                    border: 1px solid #000000;
-                                    padding: 5px;
-                                    border-radius: 4px
+        <header>
+            <style>
+                header {
+                    background-color: #F4F4F4;
+                }
+            </style>
+            <nav class="header-content container">
+                <style>
+                    .header-content {
+                        background-color: #FF4341;
+                    }
+                </style>
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="400" data-aos-duration="1300"
+                        src="assets/logobranca USAR01IMAGEMMENOR.png" alt="Logo da Rosaly">
+                </div>
+                <div class="header-icons" data-aos="fade-down">
+
+
+                    <div class="menu" id="menu">
+                        <style>
+                            
+
+                            .menu i {
+                                color: #F4F4F4;
+                                display: row;
+                                margin: 35px;
+                                font-size: 20px;
+                                font-weight: normal;
+                                font-family: ui-sans-serif;
+                                padding: 5px;
+                                font-style: oblique;
+
+                            }
+
+                            .menu i:hover {
+                                color: #ffffff;
+
+
+                            }
+
+
+                            @media screen and (max-width: 1108px) {
+                                .menu {
+                                    display: flex;
                                 }
-                                
-                                .menu i:hover {
-                                    color: white;
-                                    background-color: rgba(255, 0, 0, 0.123);
-                                    padding: 5px;
-                                    border-radius: 4px;
-                                
+
+                                .header-button {
+                                    display: flex;
                                 }
-                            </style>
-                            <a href="index.html" target="">
-                                <i class="">Home</i>
-                                
-                                
-    
-                        </div>
-    
-    
-    
+
+                            }
+
+
+                            @media screen and (max-width: 768px) {
+                                .menu {
+                                    display: none;
+                                }
+                            }
+                        </style>
+                        <a href="index.html" target="">
+                            <i class="">Home</i>
+                            
+                            </a>
+
+
                     </div>
-    
-    
-    
-                    <div data-aos="fade-down">
-                        <a class="header-button" href="https://wa.me//5519992807297?text=Quero fazer um agendamento!"
-                            target="_blank">Agendar horário</a>
-    
-    
-                    </div>
-    
-                </nav>
-    
-                <main class="hero container" data-aos="fade-up" data-aos-delay="400">
-                    <h1>Uma prática milenar que promove o equilíbrio energético para alcançar a beleza interna e externa!
-                    </h1>
-                    <p>Horário de funcionamento: 08:00 ás 19:00</p>
-    
-                    <a class="button-contact" target="_blank"
-                        href="https://wa.me//5519992807297?text=Quero fazer um agendamento!">Agendar horário</a>
-    
-                </main>
-    
-            </header>
-    
-        </div>
+
+
+
+                </div>
+
+
+
+                <div data-aos="fade-down">
+                    <a class="header-button" href="https://wa.me//5519992807297?text=Quero fazer um agendamento!"
+                        target="_blank">Agendar horário</a>
+
+
+                </div>
+
+            </nav>
+
+            <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+                <h1>Uma prática milenar que promove o equilíbrio energético para alcançar a beleza interna e externa!
+                </h1>
+                <p>Horário de funcionamento: 08:00 ás 19:00</p>
+
+                <a class="button-contact" target="_blank"
+                    href="https://wa.me//5519992807297?text=Quero fazer um agendamento!">Agendar horário</a>
+
+            </main>
+
+        </header>
+
+    </div>
 
     <!--ABOUT-->
     <section class="about">
-<style>
-    img {
-        border-radius: 5px;
-    }
-</style>
-        <div class="container about-content" >
+        <style>
+            img {
+                border-radius: 5px;
+            }
+        </style>
+        <div class="container about-content">
             <div data-aos="zoom-in" data-aos-delay="100">
                 <img src="assets/acupuntura-estetica.jpg" alt="Imagem sobre a acupuntura">
             </div>
@@ -114,28 +147,28 @@
             <div class="about-description" data-aos="zoom-out-left" data-aos-delay="200">
                 <h2>BELEZA</h2>
                 <p><strong>Acupuntura Estética
-                </strong>A Acupuntura Estética oferece um tratamento
-                exclusivamente natural, destacando-se por
-                promover a beleza interna e externa através
-                do equilíbrio energético. Alcançando saúde,
-                alegria, bem-estar e uma elevação da
-                autoestima, essa abordagem favorece o
-                rejuvenescimento e vitalidade da pele,
-                estimulando a circulação sanguínea, linfática e
-                energética. Com efeitos que reduzem o tecido
-                adiposo localizado, trata o fleugma interno
-                (umidade corpórea), diminui notavelmente a
-                celulite e estimula a drenagem linfática. Além
-                disso, promove a desintoxicação orgânica,
-                auxilia em casos de fragilidade capilar e
-                varizes, obesidade e calvície.</p>
-                
+                    </strong>A Acupuntura Estética oferece um tratamento
+                    exclusivamente natural, destacando-se por
+                    promover a beleza interna e externa através
+                    do equilíbrio energético. Alcançando saúde,
+                    alegria, bem-estar e uma elevação da
+                    autoestima, essa abordagem favorece o
+                    rejuvenescimento e vitalidade da pele,
+                    estimulando a circulação sanguínea, linfática e
+                    energética. Com efeitos que reduzem o tecido
+                    adiposo localizado, trata o fleugma interno
+                    (umidade corpórea), diminui notavelmente a
+                    celulite e estimula a drenagem linfática. Além
+                    disso, promove a desintoxicação orgânica,
+                    auxilia em casos de fragilidade capilar e
+                    varizes, obesidade e calvície.</p>
+
             </div>
         </div>
     </section>
     <section class="about">
 
-        <div class="container about-content" >
+        <div class="container about-content">
             <div data-aos="zoom-in" data-aos-delay="100">
                 <img src="assets/3629_E-1.jpg" alt="Imagem sobre a acupuntura">
             </div>
@@ -157,13 +190,13 @@
                     furunculose e herpes zoster. A Acupuntura Estética se destaca como
                     uma abordagem abrangente e natural para aprimorar a beleza e
                     promover a saúde da pele e do corpo.</p>
-                
+
             </div>
         </div>
     </section>
     <section class="about">
 
-        <div class="container about-content" >
+        <div class="container about-content">
             <div data-aos="zoom-in" data-aos-delay="100">
                 <img src="assets/desportivo2.jpg" alt="Imagem sobre a acupuntura">
             </div>
@@ -184,7 +217,7 @@
                     Frasca e Santos, influencia o corpo inteiro, tratando a dor,
                     aprimorando a performance e agindo sobre o aspecto
                     psicológico dos atletas, aumentando sua confiança.</p>
-                
+
             </div>
         </div>
     </section>
@@ -193,7 +226,7 @@
 
     <!-- FOOTER-->
 
-    
+
 
     <footer class="footer">
         <div class="footer-icons">
@@ -209,25 +242,27 @@
         </div>
 
 
-
         <div class="loguinho">
             <style>
-                .loguinho {
+                .loguinho p {
                     display: flex;
                     justify-content: center;
                 }
             </style>
-            <img class="loguinho" src="assets/logobranca.png" alt="">
+            <img class="loguinho" src="" alt="">
+            <p>Horário de funcionamento: 08:00ás 19:00</p>
+            <p>Contato: (19) 99760 2242 (Leme) | (16) 99760 1249 (Ribeirão Preto)</p>
         </div>
 
-        <p>Copyright 2023 | Dev MVD - Todos direitos reservados</p>
+        <p>©Copyright 2023 | Dev MVD - Todos direitos reservados</p>
 
 
     </footer>
 
     <!-- Button Whatsapp-->
 
-    <a href="https://wa.me//5519992807297?text=Quero fazer um agendamento!" class="btn-whatsapp" target="_blank" data-aos="zoom-in" data-aos-delay="500">
+    <a href="https://wa.me//5519992807297?text=Quero fazer um agendamento!" class="btn-whatsapp" target="_blank"
+        data-aos="zoom-in" data-aos-delay="500">
         <img src="assets/whatssapp.svg" alt="">
         <span class="tooltip-text">Agende seu horário</span>
     </a>
