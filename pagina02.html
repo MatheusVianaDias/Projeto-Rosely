@@ -56,12 +56,14 @@
 
                     <div class="menu" id="menu">
                         <style>
-                            
+                            .menu a {
+                                border-right: 1px solid black;
+                            }
 
                             .menu i {
                                 color: #F4F4F4;
                                 display: row;
-                                margin: 35px;
+                                margin: 25px;
                                 font-size: 20px;
                                 font-weight: normal;
                                 font-family: ui-sans-serif;
@@ -71,10 +73,17 @@
                             }
 
                             .menu i:hover {
+                                border: 1px solid rgb(0, 0, 0);
+                                padding: 5px 5px;
+                                border-radius: 10px 0px 10px 0px;
+                                color: #000000;
+                                background-color: rgba(255, 255, 255, 0.61);
                                 color: #ffffff;
 
 
                             }
+
+
 
 
                             @media screen and (max-width: 1108px) {
@@ -84,7 +93,6 @@
 
                                 .header-button {
                                     display: flex;
-                                    margin-bottom: 15px;
                                 }
 
                             }
@@ -96,10 +104,14 @@
                                 }
                             }
                         </style>
-                        <a href="index.html" target="">
-                            <i class="">Home</i>
-                            
+                        
+                            <a href="index.html"
+                                target="_blank">
+                                <i class="">Home</i>
                             </a>
+                            
+
+
 
 
                     </div>
@@ -111,8 +123,22 @@
 
 
                 <div data-aos="fade-down">
-                    <a class="header-button" href="https://wa.me//5519992807297?text=Quero fazer um agendamento!"
-                        target="_blank">Agendar horário</a>
+                    <style>
+                        .header-button {
+                            color: #F4F4F4;
+                            border: 1px solid white;
+
+
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            .header-button {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    </style>
+                    <a class="header-button" href="form01.html"
+                        target="_blank">Agendar Visita</a>
 
 
                 </div>
