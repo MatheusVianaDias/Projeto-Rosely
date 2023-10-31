@@ -11,59 +11,63 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="item">
-            <div class="contact">
-                <div class="first-text">Agende sua Visita</div>
-                <img src="assets/logobranca.png" alt="" class="image">
-                <div class="social-links">
-                    <span class="secnd-text">Contatos:</span>
-                    <ul class="social-media">
-                        <li><a href="https://www.facebook.com/draroselyasas" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/draroselyasas/" target="_blank"><i class="bx bxl-instagram" ></i></a></li>
-                        <li><a href="https://wa.me//5519992807297?text=Quero fazer um agendamento!" target="_blank" ><i class="bx bxl-whatsapp"></i></a></li>
-                    </ul>
+
+
+
+    <form action="https://formsubmit.co/matheus-2008-2@hotmail.com" method="POST">
+        <div class="container">
+            <div class="item">
+                <div class="contact">
+                    <div class="first-text">Agende sua Visita</div>
+                    <img src="assets/logobranca.png" alt="" class="image">
+                    <div class="social-links">
+                        <span class="secnd-text">Contatos:</span>
+                        <ul class="social-media">
+                            <li><a href="https://www.facebook.com/draroselyasas" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/draroselyasas/" target="_blank"><i class="bx bxl-instagram" ></i></a></li>
+                            <li><a href="https://wa.me//5519992807297?text=Quero fazer um agendamento!" target="_blank" ><i class="bx bxl-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="submit-form">
+                    <h4 class="third-text">Contato</h4>
+                    <form action="">
+                        <div class="input-box">
+                            <input type="text" name="Nome" class="input" id="nome" required>
+                            <label for="nome">Nome</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="Email" class="input" id="email" required>
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="tel" name="Celular" class="input" id="tel" required>
+                            <label for="tel">Celular</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="Cidade" class="input" id="city" required>
+                            <label for="city">Cidade</label>
+                        </div>
+                        <div class="input-box" id="data-visita">
+                            <label for="data_visita"><b>Data de Visita</b> </label>
+                            <input type="date" name="data_visita" id="data_visita" required>
+                        </div>
+                        <div class="input-box" id="senioridade02">
+                            <select name="Sexo" id="senioridade" required>
+                                <option selected disabled value=""> gênero</option>
+                                <option value="">Masculino</option>
+                                <option value="">Feminino</option>
+                                <option value="">Outros</option>
+                            </select>
+                            <label for=""><strong>Sexo</strong></label>
+                        </div>
+                        
+                        <input type="submit" class="btn" value="Enviar">
+                    </form>
                 </div>
             </div>
-            <div class="submit-form">
-                <h4 class="third-text">Contato</h4>
-                <form action="">
-                    <div class="input-box">
-                        <input type="text" class="input" id="nome" required>
-                        <label for="nome">Nome</label>
-                    </div>
-                    <div class="input-box">
-                        <input type="text" class="input" id="email" required>
-                        <label for="email">E-mail</label>
-                    </div>
-                    <div class="input-box">
-                        <input type="tel" class="input" id="tel" required>
-                        <label for="tel">Celular</label>
-                    </div>
-                    <div class="input-box">
-                        <input type="text" class="input" id="city" required>
-                        <label for="city">Cidade</label>
-                    </div>
-                    <div class="input-box" id="data-visita">
-                        <label for="data_visita"><b>Data de Visita</b> </label>
-                        <input type="date" name="data_visita" id="data_visita" required>
-                    </div>
-                    <div class="input-box" id="senioridade02">
-                        <select name="" id="senioridade" required>
-                            <option selected disabled value=""> gênero</option>
-                            <option value="">Masculino</option>
-                            <option value="">Feminino</option>
-                            <option value="">Outros</option>
-                        </select>
-                        <label for=""><strong>Sexo</strong></label>
-                    </div>
-                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-
-                    <input type="submit" class="btn" value="Enviar">
-                </form>
-            </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>
