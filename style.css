@@ -103,6 +103,7 @@ i {
 }
 
 .hero {
+  margin-top: -90px;
   color: #353436;
   min-height: 80vh;
   display: flex;
@@ -115,7 +116,7 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 46px;
+  font-size: 30px;
 }
 .hero p {
   text-align: center;
